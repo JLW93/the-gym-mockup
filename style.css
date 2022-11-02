@@ -1,0 +1,91 @@
+* {
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.footer-link:hover {
+    color: #ffcc00;
+}
+
+.socials {
+    font-size: 2.2em;
+    color: white;
+}
+
+.fb:hover {
+    color: rgb(87, 87, 255);
+}
+
+.tw:hover {
+    color: rgb(70, 201, 245);
+}
+
+.yt:hover {
+    color: red;
+}
+
+.tt:hover {
+    color: white;
+    text-shadow: 1px 1px 2px #FF0000,
+                -1px -1px 2px #04f8f4,
+                1px 1px 2px #FF0000,
+                -1px -1px 2px #04f8f4;
+}
+
+.ig:hover {
+    background-image: linear-gradient(to bottom, rgb(122, 2, 207), rgb(199, 1, 87), rgb(249, 187, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-secondary {
+    background-color: #870000 !important;
+}
+
+.bg-warning {
+    background-color: yellow !important;
+}
+
+.banner {
+    background-image: url(static/banner/banner.jpg);
+    background-size:cover;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+.about-box {
+    background-color: rgba(255, 191, 0, 0.4)
+}
+
+form a {
+    color: #870000;
+    text-decoration: none;
+}
+
+form a:hover {
+    color: #ffcc00;
+}
+
+.trainer-img {
+    width: 325px;
+    /* height: 300px; */
+}
+
+@media (max-width: 1200px) {
+    footer {
+        font-size: calc(0.375rem + .8vw);
+    }
+}
